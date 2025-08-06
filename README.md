@@ -1,6 +1,6 @@
 # 📘 Data Structures & Algorithms Practice
 
-Welcome to my DSA repository! This is where I regularly practice coding problems to improve my problem-solving skills for technical interviews and competitive programming.
+Welcome to my DSA repository! This is where I regularly practice coding problems to improve my problem-solving skills for technical interviews.
 
 ---
 
@@ -40,6 +40,6 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 
 ## 🤝 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/md-sahbaz-alam)
+- [LinkedIn](https://www.linkedin.com/in/sahbaz-alam-a95680262/)
 - [GitHub](https://github.com/mdsahbazkhan)
 
