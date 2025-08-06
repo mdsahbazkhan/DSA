@@ -12,18 +12,34 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 
 ---
 
-## 📂 Folder Structure
+## ✅ Topics Covered (with progress)
 
-```bash
-.
-├── Arrays/
-│   ├── twoSum.js
-│   ├── moveZeros.js
-├── Strings/
-│   ├── isAnagram.js
-│   ├── reverseWords.js
-├── Trees/
-│   ├── levelOrderTraversal.js
-├── Recursion/
-│   ├── factorial.js
-├── README.md
+- [ ] Arrays
+- [ ] Strings
+- [ ] Hashing
+- [ ] Recursion
+- [ ] Stack & Queue
+- [ ] Linked List
+- [ ] Trees
+- [ ] Graphs
+- [ ] Binary Search
+- [ ] Sliding Window
+- [ ] Dynamic Programming
+
+## 🛠️ Languages Used
+
+- 🟨 JavaScript (main)
+- ☕ Java (occasionally)
+
+---
+
+## 📈 Progress Tracker
+
+📅 I track my daily problem-solving progress here:  
+👉 [View My Notion DSA Tracker](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)
+
+## 🤝 Let's Connect
+
+- [LinkedIn](https://www.linkedin.com/in/md-sahbaz-alam)
+- [GitHub](https://github.com/mdsahbazkhan)
+
