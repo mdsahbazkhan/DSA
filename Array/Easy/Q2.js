@@ -62,6 +62,7 @@
 
 
 function sSmallestSlargest(arr,n) {
+    if (n < 2) return { sLargest: -1, sSmallest: -1 };
     let largest=arr[0];
     let smallest=arr[0];
     let sLargest=-Infinity;
@@ -80,11 +81,10 @@ function sSmallestSlargest(arr,n) {
             sSmallest=arr[i];
         }
     }
-    return{
-        
-        sLargest:sLargest===-Infinity?-1:sLargest,
-        sSmallest:sSmallest===Infinity?-1:sSmallest
-    }
+  if (sLargest === -Infinity) sLargest = -1;
+    if (sSmallest === Infinity) sSmallest = -1;
+
+    return { sLargest, sSmallest };
     
 }
 let arr = [100, -50, 200, 200, -300, 0, 99, -1, 150, 150, -50];
