@@ -50,3 +50,22 @@
 //     return arr;
 // }
 // console.log(movesZerofront([1,0,3,0,4]));
+
+
+function currentsal(basic,grade) {
+    let hra =(20/100)*basic;
+    let da=(50/100)*basic;
+    let pf=(11/100)*basic;
+    let allowance =0;
+    if(grade=='A'){
+        allowance=1700;
+    }else if(grade =='B'){
+        allowance=1500;
+    }else{
+        allowance=1300;
+    }
+    let totalSalary = basic +hra+da+allowance-pf;
+    return totalSalary;
+    
+}
+console.log(currentsal(10000,'A'));
