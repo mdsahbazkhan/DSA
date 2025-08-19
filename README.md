@@ -33,10 +33,14 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 
 ---
 
-## 📈 Progress Tracker
 
-📅 I track my daily problem-solving progress here:  
-👉 [View My Notion DSA Tracker](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)
+## 📅 Daily Problem-Solving Progress  
+I maintain all my DSA practice here:  
+👉 [Notion DSA Tracker](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)  
+
+## 📝 Notes  
+I also keep detailed notes, explanations, and dry runs of problems for quick revision.
+
 
 ## 🤝 Let's Connect
 
