@@ -35,23 +35,23 @@
 
 // return []
 // }
-// const arr=[2,6,5,8,11]
-// console.log(sumProblem(arr,14));
+// const arr=[1, 3 ,2 ,6, 1,2  ]
+// console.log(sumProblem(arr,3));
 
 // Optimal
-function sumProblem(arr,Target){
-    let n= arr.length;
-    arr=arr.sort((a,b)=>a-b)
-   let i=0;
-   let j=n-1;
-   while(i<j){
-    let sum=arr[i]+arr[j];
-    if(sum==Target)return [i,j];
-    else if(sum<Target)i++;
-    else j--;
-   }
+// function sumProblem(arr,Target){
+//     let n= arr.length;
+//     arr=arr.sort((a,b)=>a-b)
+//    let i=0;
+//    let j=n-1;
+//    while(i<j){
+//     let sum=arr[i]+arr[j];
+//     if(sum==Target)return [i,j];
+//     else if(sum<Target)i++;
+//     else j--;
+//    }
 
-return []
-}
-const arr=[3,2,4]
-console.log(sumProblem(arr,6));
+// return []
+// }
+// const arr=[3,2,4]
+// console.log(sumProblem(arr,6));

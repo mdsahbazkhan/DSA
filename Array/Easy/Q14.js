@@ -41,27 +41,27 @@
 // console.log(subArray([2,0,0,3],3));
 
 // Optimal
-//  function subArray(arr,k){
-//     let n= arr.length;
-//     let count=0;
-//     let sum=arr[0];
-//     let left=0;
-//     let right=0;
-//     while(right<n){
-//         while(left<=right && sum>k){
-//             sum-=arr[left];
-//             left++;
-//         }
-//         if(sum==k){
-//             maxLength=Math.max(maxLength,right-left+1);
-//         }
-//         right++;
-//         if(right<n){
-//             sum+=arr[right]
-//         }
-//     }
+ function subArray(arr,k){
+    let n= arr.length;
+    let sum=arr[0];
+    let left=0;
+    let right=0;
+    let maxLength=0
+    while(right<n){
+        while(left<=right && sum>k){
+            sum-=arr[left];
+            left++;
+        }
+        if(sum==k){
+            maxLength=Math.max(maxLength,right-left+1);
+        }
+        right++;
+        if(right<n){
+            sum+=arr[right]
+        }
+    }
 
 
-//     return maxLength;
-// };
-// console.log(subArray([1,2,1,2,1],3));
+    return maxLength;
+};
+console.log(subArray([1,2,1,2,1],3));
