@@ -23,3 +23,19 @@
 // }
 // console.log((permutation([1,2,3])));
 
+
+function permute(arr,index=0,n=arr.length-1){
+    if(index==n){
+        console.log(arr.join(","));
+        return;        
+    }
+    for(let i=index;i<=n;i++){
+        [arr[index],arr[i]]=[arr[i],arr[index]];
+        permute(arr,index+1,n);
+         [arr[index],arr[i]]=[arr[i],arr[index]];
+    }
+
+}
+permute([1,2,3])
+
+
