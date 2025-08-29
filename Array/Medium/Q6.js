@@ -1,4 +1,4 @@
-//Next permutation
+// Next permutation
 function nextPermutation(arr) {
     let index=-1;
     let n= arr.length;
@@ -11,6 +11,7 @@ function nextPermutation(arr) {
    
     if(index==-1){
         arr.reverse()
+        return arr
     }
      for(let i=n-1;i>=index;i++){
         if(arr[i]>arr[index]){
@@ -26,4 +27,7 @@ function nextPermutation(arr) {
   }
     return arr
 }
-console.log(nextPermutation([2,1,5,4,3]));
+console.log(nextPermutation([2,1,5,4,2]));
+
+
+
