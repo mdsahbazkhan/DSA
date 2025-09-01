@@ -100,7 +100,10 @@ col0=0
 for(let i=1;i<row;i++){
   for(let j=1;j<col;j++){
 if(matrix[i][j]!=0){
-  matrix[i][j]=0
+  if(matrix[i][0]==0||matrix[0][j]==0){
+
+    matrix[i][j]=0
+  }
 }
   }
 }
@@ -118,10 +121,5 @@ if(col0==0){
     return matrix;
 }
 console.log(
-  setZeros([
-    [1, 1, 1, 1],
-    [1, 0, 1, 1],
-    [1, 1, 0, 1],
-    [0, 1, 1, 1],
-  ])
+  setZeros([[1,1,1],[1,0,1],[1,1,1]])
 );
