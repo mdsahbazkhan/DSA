@@ -53,27 +53,28 @@
 // console.log(longConsecutive([102,4,100,1,101,3,2,1,1,5,103,104,105,106]));
 
 
-function longConsecutive(arr) {
-  let n= arr.length;
-  if(n==0)return 0;
+// function longConsecutive(arr) {
+//   let n= arr.length;
+//   if(n==0)return 0;
 
-  let longest=1;
-  let st=new Set();
-  for(let i=0;i<n;i++){
-st.add(arr[i])
-  }
-  for(let num of st){
-    if(!st.has(num-1)){
-        let count=1;
-        let currentNum=num
-        while(st.has(currentNum+1)){
-            currentNum++;
-            count++;
-        }
-        longest=Math.max(longest,count)
-    }
-  }
-  return longest
+//   let longest=1;
+//   let st=new Set();
+//   for(let i=0;i<n;i++){
+// st.add(arr[i])
+//   }
+//   for(let num of st){
+//     if(!st.has(num-1)){
+//         let count=1;
+//         let currentNum=num
+//         while(st.has(currentNum+1)){
+//             currentNum++;
+//             count++;
+//         }
+//         longest=Math.max(longest,count)
+//     }
+//   }
+//   return longest
     
-}
-console.log(longConsecutive([102,4,100,1,101,3,2,1,1,5,103,104,105,106]));
+// }
+// console.log(longConsecutive([102,4,100,1,101,3,2,1,1,5,103,104,105,106]));
+
