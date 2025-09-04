@@ -80,51 +80,51 @@
 //   ])
 // );
 
-function setZeros(matrix) {
-let row = matrix.length;
-  let col = matrix[0].length;
-let col0=1
-for(let i=0;i<row;i++){
-  for(let j=0;j<col;j++){
-    if(matrix[i][j]==0){
-      matrix[i][0]=0;
-      if(j!=0){
-        matrix[0][j]=0
-      }else{
-col0=0
-      }
+// function setZeros(matrix) {
+// let row = matrix.length;
+//   let col = matrix[0].length;
+// let col0=1
+// for(let i=0;i<row;i++){
+//   for(let j=0;j<col;j++){
+//     if(matrix[i][j]==0){
+//       matrix[i][0]=0;
+//       if(j!=0){
+//         matrix[0][j]=0
+//       }else{
+// col0=0
+//       }
 
-    }
-  }
-}
-for(let i=1;i<row;i++){
-  for(let j=1;j<col;j++){
-if(matrix[i][j]!=0){
-  if(matrix[i][0]==0||matrix[0][j]==0){
+//     }
+//   }
+// }
+// for(let i=1;i<row;i++){
+//   for(let j=1;j<col;j++){
+// if(matrix[i][j]!=0){
+//   if(matrix[i][0]==0||matrix[0][j]==0){
 
-    matrix[i][j]=0
-  }
-}
-  }
-}
-if(matrix[0][0]==0){
-  for(let j=0;j<col;j++){
-    matrix[0][j]=0
-  }
-}
-if(col0==0){
-  for(let i=0;i<row;i++){
-    matrix[i][0]=0
-  }
-}
+//     matrix[i][j]=0
+//   }
+// }
+//   }
+// }
+// if(matrix[0][0]==0){
+//   for(let j=0;j<col;j++){
+//     matrix[0][j]=0
+//   }
+// }
+// if(col0==0){
+//   for(let i=0;i<row;i++){
+//     matrix[i][0]=0
+//   }
+// }
     
-    return matrix;
-}
-console.log(
-  setZeros([
- [1, 1, 1, 1],
- [1, 0, 1, 1],
- [1, 1, 0, 1],
- [1, 0, 0, 1]
-])
-);
+//     return matrix;
+// }
+// console.log(
+//   setZeros([
+//  [1, 1, 1, 1],
+//  [1, 0, 1, 1],
+//  [1, 1, 0, 1],
+//  [1, 0, 0, 1]
+// ])
+// );
