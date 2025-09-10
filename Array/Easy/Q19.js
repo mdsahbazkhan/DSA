@@ -41,23 +41,26 @@
 
 
 // Given N print the entire triangle
-function generateRow(row){
-    let res=1
-    let resRow=[];
-    resRow.push(res);
-    for(let i=1;i<row;i++){
-        res=res*(row-i);
-        res=res/i;
-        resRow.push(res)
-    }
-    return resRow
-}
-function PascalTria(N){
-    let ans=[];
-    for(let i=1;i<=N;i++){
-        ans.push(generateRow(i))
-    }
-    return ans
-}
-console.log(PascalTria(5));
+// function generateRow(row){
+//     let res=1
+//     let resRow=[];
+//     resRow.push(res);
+//     for(let i=1;i<row;i++){
+//         res=res*(row-i);
+//         res=res/i;
+//         resRow.push(res)
+//     }
+//     return resRow
+// }
+// function PascalTria(N){
+//     let ans=[];
+//     for(let i=1;i<=N;i++){
+//         ans.push(generateRow(i))
+//     }
+//     return ans
+// }
+// console.log(PascalTria(5));
+
+
+
 
