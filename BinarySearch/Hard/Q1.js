@@ -1,4 +1,4 @@
-//Allocate Books
+//Allocate Books |Split Array Largest Sum | Painter's Partition Problem
 
 //Brute force
 
