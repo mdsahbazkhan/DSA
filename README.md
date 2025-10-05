@@ -15,14 +15,14 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 ## ✅ Topics Covered (with progress)
 
 - [x] Arrays
-- [x] Strings
+- [ ] Strings
 - [ ] Hashing
 - [ ] Recursion
 - [ ] Stack & Queue
 - [ ] Linked List
 - [ ] Trees
 - [ ] Graphs
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Sliding Window
 - [ ] Dynamic Programming
 
