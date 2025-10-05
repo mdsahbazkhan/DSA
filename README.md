@@ -15,7 +15,7 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 ## ✅ Topics Covered (with progress)
 
 - [x] Arrays
-- [ ] Strings
+- [x] Strings
 - [ ] Hashing
 - [ ] Recursion
 - [ ] Stack & Queue
