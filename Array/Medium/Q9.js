@@ -24,9 +24,6 @@ function rotateMatrix(matrix) {
       matrix[j][i] = temp;
     }
   }
-  //  for(let i=0;i<n;i++){
-  //     matrix[i].reverse();
-  //  }
 
   for (let i = 0; i < n; i++) {
     let left = 0,
