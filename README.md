@@ -19,7 +19,7 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 - [ ] Hashing
 - [ ] Recursion
 - [ ] Stack & Queue
-- [ ] Linked List
+- [x] Linked List
 - [ ] Trees
 - [ ] Graphs
 - [x] Binary Search
@@ -33,17 +33,16 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 
 ---
 
+## 📅 Daily Problem-Solving Progress
 
-## 📅 Daily Problem-Solving Progress  
 I maintain all my DSA practice here:  
-👉 [Notion DSA Tracker](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)  
+👉 [Notion DSA Tracker](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)
 
-## 📝 Notes  
+## 📝 Notes
+
 I also keep detailed notes, explanations, and dry runs of problems for quick revision.
-
 
 ## 🤝 Let's Connect
 
 - [LinkedIn](https://www.linkedin.com/in/sahbaz-alam-a95680262/)
 - [GitHub](https://github.com/mdsahbazkhan)
-
