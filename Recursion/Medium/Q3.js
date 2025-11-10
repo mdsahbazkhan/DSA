@@ -4,7 +4,7 @@ function myPow(x, n) {
   let expo = BigInt(n);
   let res = 1n;
   while (expo > 0) {
-    if (expo % 2n == 1n) res *= base;
+    if (expo % 2n == 1n) res = (res * base) % M;
     base = (base * base) % M;
     expo = expo / 2n;
   }
@@ -19,4 +19,4 @@ var countGoodNumbers = function (n) {
   let ans = (evenPow * oddPow) % M;
   return Number(ans);
 };
-console.log(countGoodNumbers(1));
+console.log(countGoodNumbers(4));
