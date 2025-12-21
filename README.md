@@ -17,7 +17,7 @@ Welcome to my DSA repository! This is where I regularly practice coding problems
 - [x] Arrays
 - [ ] Strings
 - [ ] Hashing
-- [ ] Recursion
+- [x] Recursion
 - [ ] Stack & Queue
 - [x] Linked List
 - [ ] Trees
