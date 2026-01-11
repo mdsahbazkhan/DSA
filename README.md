@@ -18,7 +18,7 @@
 
 | **Metric** | **Count** |
 |------------|:---------:|
-| 🎯 Topics Mastered | 6/12 |
+| 🎯 Topics Mastered | 7/12 |
 | 💻 Languages | 2 |
 | 🔥 Active Platforms | 3 |
 
@@ -33,10 +33,10 @@
 - **Linked Lists** - Traversal, manipulation, cycle detection
 - **Bit Manipulation & Math** - Bitwise operations, mathematical algorithms
 - **Binary Search** - Search space reduction, template patterns
+- **Stack & Queue** - LIFO/FIFO operations, monotonic structures
 
 ### 🔄 **In Progress**
 - **Strings** - Pattern matching, manipulation
-- **Stack & Queue** - LIFO/FIFO operations, monotonic structures
 - **Trees** - Binary trees, BST, traversals
 - **Graphs** - DFS, BFS, shortest paths
 - **Sliding Window** - Fixed and variable window techniques
