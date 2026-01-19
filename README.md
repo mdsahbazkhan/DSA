@@ -16,17 +16,18 @@
 
 <div align="center">
 
-| **Metric** | **Count** |
-|------------|:---------:|
-| 🎯 Topics Mastered | 7/12 |
-| 💻 Languages | 2 |
-| 🔥 Active Platforms | 3 |
+| **Metric**          | **Count** |
+| ------------------- | :-------: |
+| 🎯 Topics Mastered  |   8/12    |
+| 💻 Languages        |     2     |
+| 🔥 Active Platforms |     3     |
 
 </div>
 
 ## 🎯 Learning Path & Progress
 
 ### ✅ **Completed Topics**
+
 - **Arrays** - Sorting, searching, two pointers, sliding window basics
 - **Hashing** - Hash maps, sets, frequency counting
 - **Recursion** - Base cases, recursive thinking, backtracking
@@ -34,12 +35,13 @@
 - **Bit Manipulation & Math** - Bitwise operations, mathematical algorithms
 - **Binary Search** - Search space reduction, template patterns
 - **Stack & Queue** - LIFO/FIFO operations, monotonic structures
+- **Sliding Window** - Fixed and variable window techniques
 
 ### 🔄 **In Progress**
+
 - **Strings** - Pattern matching, manipulation
 - **Trees** - Binary trees, BST, traversals
 - **Graphs** - DFS, BFS, shortest paths
-- **Sliding Window** - Fixed and variable window techniques
 - **Dynamic Programming** - Memoization, tabulation, optimization
 
 ## 🛠️ Tech Stack
@@ -79,6 +81,7 @@ DSA/
 👉 [Notion DSA Dashboard](https://www.notion.so/2347299e61f2807ca8c3dfdb314aabc3?v=2347299e61f280ecbad4000ca2b82062)
 
 **What I Track:**
+
 - Daily problem count and difficulty
 - Time complexity analysis
 - Pattern recognition
@@ -117,7 +120,7 @@ DSA/
 
 <div align="center">
 
-*"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie*
+_"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie_
 
 ⭐ **Star this repo if you find it helpful!**
 
