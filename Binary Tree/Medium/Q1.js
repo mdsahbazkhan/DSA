@@ -1,0 +1,20 @@
+//Binary Tree Level Order Traversal
+
+var levelOrder = function (root) {
+  if (root === null) return [];
+  let result = [];
+  let queue = [root];
+  while (queue.length > 0) {
+    let size = queue.length;
+    let level = [];
+    for (let i = 0; i < size; i++) {
+      let node = queue.shift();
+      level.push(node.val);
+      if (node.left) queue.push(node.left);
+      if (node.right) queue.push(node.right);
+    }
+    result.push(level);
+  }
+
+  return result;
+};
