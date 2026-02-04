@@ -1,35 +1,35 @@
-//Binary Tree Right Side View
+    //Binary Tree Right Side View
 
-var rightSideView = function (root) {
-  if (root === null) return [];
-  let ds = [];
-  function bfs(node, level) {
-    if (node === null) return;
+    var rightSideView = function (root) {
+    if (root === null) return [];
+    let ds = [];
+    function dfs(node, level) {
+        if (node === null) return;
 
-    if (level === ds.length) {
-      ds.push(node.val);
+        if (level === ds.length) {
+        ds.push(node.val);
+        }
+        bfs(node.right, level + 1);
+        dfs(node.left, level + 1);
     }
-    bfs(node.right, level + 1);
-    bfs(node.left, level + 1);
-  }
-  bfs(root, 0);
-  return ds;
-};
+    dfs(root, 0);
+    return ds;
+    };
 
-//Binary Tree Left Side View
+    //Binary Tree Left Side View
 
-var leftSideView = function (root) {
-  if (root === null) return [];
-  let ds = [];
-  function bfs(node, level) {
-    if (node === null) return;
+    var leftSideView = function (root) {
+    if (root === null) return [];
+    let ds = [];
+    function dfs(node, level) {
+        if (node === null) return;
 
-    if (level === ds.length) {
-      ds.push(node.val);
+        if (level === ds.length) {
+        ds.push(node.val);
+        }
+        dfs(node.left, level + 1);
+        dfs(node.right, level + 1);
     }
-    bfs(node.left, level + 1);
-    bfs(node.right, level + 1);
-  }
-  bfs(root, 0);
-  return ds;
-};
+    dfs(root, 0);
+    return ds;
+    };
