@@ -3,7 +3,7 @@ var distanceK = function (root, target, k) {
   let parentMap = new Map();
   //Parent Mark
   function markParent(node, parent) {
-    if (!root) return;
+    if (!node) return;
     parentMap.set(node, parent);
     if (node.left) markParent(node.left, node);
     if (node.right) markParent(node.right, node);
