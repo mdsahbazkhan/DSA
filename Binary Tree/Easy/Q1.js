@@ -13,16 +13,32 @@
 //   return result;
 // };
 
-function preorderTraversal(root) {
-  let result = [];
-  if (root === null) return result;
-  let stack = [];
-  stack.push(root);
-  while (stack.length !== 0) {
-    let node = stack.pop();
-    result.push(node.val);
-    if (node.right) stack.push(node.right);
-    if (node.left) stack.push(node.left);
+//Morris preorderTraversal
+var preorderTraversal=function (root) {
+let result= [];
+let curr=root;
+
+while (curr!==null) {
+if (curr.left===null) {
+result.push(curr.val);
+curr=curr.right;
+    }else {
+let pred=curr.left;
+
+while (pred.right!==null&&pred.right!==curr) {
+pred=pred.right;
+      }
+
+if (pred.right===null) {
+result.push(curr.val);// Visit before going left
+pred.right=curr;
+curr=curr.left;
+      }else {
+pred.right=null;
+curr=curr.right;
+      }
+    }
   }
-  return result;
-}
+
+return result;
+};
