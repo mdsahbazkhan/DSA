@@ -12,18 +12,32 @@
 //     return result;
 // };
 
-function inorderTraversal(root) {
-  let result = [];
-  let st = [];
-  let curr = root;
-  while (curr != null || st.length > 0) {
-    while (curr != null) {
-      st.push(curr);
-      curr = curr.left;
+//Morris inorderTraversal
+var inorderTraversal=function (root) {
+let result= [];
+let curr=root;
+
+while (curr!==null) {
+if (curr.left===null) {
+result.push(curr.val);
+curr=curr.right;
+    }else {
+let pred=curr.left;
+
+while (pred.right!==null&&pred.right!==curr) {
+pred=pred.right;
+      }
+
+if (pred.right===null) {
+pred.right=curr;// create thread
+curr=curr.left;
+      }else {
+pred.right=null;// remove thread
+result.push(curr.val);
+curr=curr.right;
+      }
     }
-    curr = st.pop();
-    result.push(curr.val);
-    curr = curr.right;
   }
-  return result;
-}
+
+return result;
+};
